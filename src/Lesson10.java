@@ -131,5 +131,17 @@ public class Lesson10 {
             System.out.println("DO WHILE LOOP. INITIAL VALUE < 5");
         } while( initialValue < 5 );
 
+
+
+        // Just a few more examples
+        int[] simpleArray = {1,2,3,4,5};
+        System.out.println(" Second element " + simpleArray[1]);
+
+        int[][] complexArray = {{5,6},{7,8}};
+        int[] justARow = complexArray[1];
+
+        for (int justAnElement: justARow) {
+            System.out.println(justAnElement);
+        }
     }
 }
